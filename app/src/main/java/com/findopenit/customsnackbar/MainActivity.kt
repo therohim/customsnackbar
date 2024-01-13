@@ -3,6 +3,7 @@ package com.findopenit.customsnackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.findopenit.customsnackbar.databinding.ActivityMainBinding
+import com.findopenit.snackbarmodule.SnackBar
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding

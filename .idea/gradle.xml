@@ -11,9 +11,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/SnackBar" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/customsnackbar" />
+            <option value="$PROJECT_DIR$/snackbarmodule" />
           </set>
         </option>
       </GradleProjectSettings>
