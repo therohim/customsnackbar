@@ -1,4 +1,4 @@
-package com.example.customsnackbar
+package com.findopenit.customsnackbar
 
 import org.junit.Test
 
