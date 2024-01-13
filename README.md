@@ -38,7 +38,7 @@ and add the dependency:
 ```gradle
 dependencies {
   ...
-  implementation 'com.github.gaddarkumar7447:CustomSnackBar:1.0.0'
+  implementation 'com.github.therohim:customsnackbar:TAG-RELEASE'
   ...
 }
 ```
