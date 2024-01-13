@@ -1,4 +1,4 @@
-package com.findopenit.snackbar
+package com.findopenit.snackbarmodule
 
 import org.junit.Test
 
