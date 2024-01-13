@@ -1,9 +1,9 @@
-package com.example.customsnackbar
+package com.findopenit.customsnackbar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.customsnackbar.databinding.ActivityMainBinding
-import com.example.snackbar.SnackBar
+import com.findopenit.customsnackbar.databinding.ActivityMainBinding
+import com.findopenit.snackbarmodule.SnackBar
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {

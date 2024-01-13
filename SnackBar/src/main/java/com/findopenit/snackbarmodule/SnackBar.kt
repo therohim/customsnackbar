@@ -1,4 +1,4 @@
-package com.example.snackbar
+package com.findopenit.snackbarmodule
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -11,11 +11,11 @@ import android.widget.FrameLayout
 import androidx.core.view.ViewCompat
 import androidx.core.view.updateLayoutParams
 import androidx.core.view.updateMargins
-import com.example.snackbar.databinding.LayoutDangerBinding
-import com.example.snackbar.databinding.LayoutInfoBinding
-import com.example.snackbar.databinding.LayoutNetworkErrorBinding
-import com.example.snackbar.databinding.LayoutSuccessBinding
-import com.example.snackbar.databinding.LayoutWarningBinding
+import com.findopenit.snackbarmodule.databinding.LayoutDangerBinding
+import com.findopenit.snackbarmodule.databinding.LayoutInfoBinding
+import com.findopenit.snackbarmodule.databinding.LayoutNetworkErrorBinding
+import com.findopenit.snackbarmodule.databinding.LayoutSuccessBinding
+import com.findopenit.snackbarmodule.databinding.LayoutWarningBinding
 import com.google.android.material.snackbar.Snackbar
 
 class SnackBar {
@@ -57,7 +57,7 @@ class SnackBar {
             snackBar.view.setBackgroundColor(Color.TRANSPARENT)
 
             snackBar.view.updateLayoutParams<FrameLayout.LayoutParams> {
-                gravity = Gravity.TOP
+                gravity = Gravity.BOTTOM
                 if ((Build.VERSION.SDK_INT >= Build.VERSION_CODES.R)) {
                     val systemBarTopInset: Int = ViewCompat.getRootWindowInsets(view)
                         ?.getInsets(WindowInsets.Type.statusBars())
