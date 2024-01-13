@@ -3,8 +3,6 @@ package com.findopenit.customsnackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.findopenit.customsnackbar.databinding.ActivityMainBinding
-import com.findopenit.snackbarmodule.SnackBar
-import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
@@ -19,18 +17,18 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.warning.setOnClickListener {
-            SnackBar.warning(binding.root, "Warning SnackBar :)", Snackbar.LENGTH_LONG).show()
+            SnackBar.warning(binding.root, "Warning SnackBar :)", SnackBar.LENGTH_LONG).show()
         }
         binding.danger.setOnClickListener {
-            SnackBar.error(binding.root, "Danger SnackBar :)", Snackbar.LENGTH_LONG).show()
+            SnackBar.error(binding.root, "Danger SnackBar :)", SnackBar.LENGTH_LONG).show()
         }
 
         binding.info.setOnClickListener {
-            SnackBar.info(binding.root, "Info SnackBar :)", Snackbar.LENGTH_LONG).show()
+            SnackBar.info(binding.root, "Info SnackBar :)", SnackBar.LENGTH_LONG).show()
         }
 
         binding.networkError.setOnClickListener {
-            SnackBar.networkError(binding.root, "Network SnackBar :)", Snackbar.LENGTH_LONG).show()
+            SnackBar.networkError(binding.root, "Network SnackBar :)", SnackBar.LENGTH_LONG).show()
         }
     }
 }
